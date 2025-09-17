@@ -22,16 +22,15 @@ Before using this configuration, you'll need:
 
 ### Step 1: Install Claude Code
 
-Follow the official Claude Code installation guide:
-https://docs.anthropic.com/en/docs/claude-code/getting-started
+Claude Code is a CLI tool that runs directly in your browser or as a desktop app.
 
-```bash
-# Install Claude Code CLI (macOS)
-brew install claude-code
+Follow the official Claude Code guide:
+https://docs.claude.com/en/docs/claude-code/overview
 
-# Or download directly from
-# https://claude.ai/code
-```
+To get started:
+1. Visit https://claude.ai/code
+2. Sign in with your Anthropic account
+3. Claude Code will be available in your browser or you can download the desktop app
 
 ### Step 2: Clone This Repository
 
@@ -124,7 +123,10 @@ Feel free to submit issues or pull requests with:
 
 ## Resources
 
-- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
+- [Claude Code Documentation](https://docs.claude.com/en/docs/claude-code/overview)
+- [MCP Server Repository](https://github.com/modelcontextprotocol/servers)
+- [Linear API Documentation](https://developers.linear.app/docs)
+- [Atlassian API Documentation](https://developer.atlassian.com/cloud/)
 
 ## License
 
