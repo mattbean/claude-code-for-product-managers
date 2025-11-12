@@ -39,21 +39,42 @@ git clone https://github.com/mattbean/claude-code-for-product-managers.git
 cd claude-code-for-product-managers
 ```
 
-### Step 3: Set Up MCP Integrations
+### Step 3: Add MCP Integrations
 
-This configuration is designed to work with a variety of MCP servers. Install the ones relevant to your workflow.
+Add the MCP servers you want to use. Run these commands in your terminal:
 
-### Step 4: Configure MCP Settings
+#### Atlassian (Jira and Confluence)
 
-1. Open Claude Code settings
-2. Navigate to MCP Servers section
-3. Add each MCP server with your credentials
+```bash
+claude mcp add --transport sse atlassian https://mcp.atlassian.com/v1/sse
+```
 
-### Step 5: Start Using Claude Code
+#### Linear
 
-1. Navigate to your project directory
-2. Open Claude Code
-3. The custom agents and commands will be automatically available
+```bash
+claude mcp add --transport http linear https://mcp.linear.app/mcp
+```
+
+For more MCP servers and integrations, visit: https://code.claude.com/docs/en/mcp
+
+### Step 4: Start Claude Code
+
+Navigate to your project directory and start Claude Code:
+
+```bash
+cd claude-code-for-product-managers
+claude
+```
+
+### Step 5: Authenticate MCP Servers
+
+Inside Claude Code, run:
+
+```
+/mcp
+```
+
+This will authenticate each MCP server you added. The custom agents and commands will now be available.
 
 ## Usage Examples
 
