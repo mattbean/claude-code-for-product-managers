@@ -1,0 +1,23 @@
+# Granola export outputs (contains sensitive meeting transcripts)
+granola-notes/
+
+# Node modules
+node_modules/
+
+# Local settings (user-specific permissions)
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
