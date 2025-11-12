@@ -16,7 +16,6 @@ A specialized Claude Code configuration with custom agents and MCP integrations 
 Before using this configuration, you'll need:
 1. Claude Code CLI installed and running
 2. MCP servers configured for your integrations
-3. API keys/tokens for each service you want to use
 
 ## Setup Instructions
 
@@ -94,16 +93,6 @@ Use the internal-information-researcher to find all discussions about pricing st
 /delegate Create a comprehensive competitive analysis for our main competitors
 ```
 
-### MCP Integration Examples
-
-```
-# Search Linear issues
-Scope, create, and modify issues
-
-# Search Confluence
-Look for the latest meeting notes and complete the action items from them
-```
-
 ## Customization
 
 ### Adding New Agents
@@ -145,9 +134,6 @@ Feel free to submit issues or pull requests with:
 ## Resources
 
 - [Claude Code Documentation](https://docs.claude.com/en/docs/claude-code/overview)
-- [MCP Server Repository](https://github.com/modelcontextprotocol/servers)
-- [Linear API Documentation](https://developers.linear.app/docs)
-- [Atlassian API Documentation](https://developer.atlassian.com/cloud/)
 
 ## License
 
